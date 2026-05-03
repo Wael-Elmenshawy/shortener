@@ -4,6 +4,7 @@ This project is a simple URL shortener application built with Node.js, container
 
 ## Demo Video
 Click below to watch the full pipeline and deployment:
+
 [Watch the demo](https://github.com/Wael-Elmenshawy/shortener/issues/1)
 
 ## Features
