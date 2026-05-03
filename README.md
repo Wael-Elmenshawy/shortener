@@ -7,7 +7,6 @@ This project is a simple URL shortener application built with Node.js, container
 🚀 Watch the full CI/CD pipeline and AWS deployment in action:  
 👉 **[Watch the demo](https://github.com/Wael-Elmenshawy/shortener/issues/1)**
 
-
 ## Features
 
 * Shorten long URLs into easy-to-share links
