@@ -1,19 +1,26 @@
-# URL Shortener with CI/CD Pipeline
+# URL Shortener with CI/CD Pipeline on AWS
 
-This project is a simple URL shortener application built with Node.js, integrated with Docker and Jenkins for automated CI/CD.
+This project is a simple URL shortener application built with Node.js, containerized using Docker, and deployed on AWS EC2 with a CI/CD pipeline powered by Jenkins.
+
+## Demo Video
+
+Click below to watch the full pipeline and deployment:
+[Watch the demo](https://github.com/Wael-Elmenshawy/shortener/issues/1)
 
 ## Features
 
 * Shorten long URLs into easy-to-share links
 * Lightweight Node.js application
 * Dockerized for easy deployment
-* Integrated with Jenkins CI/CD pipeline
+* Automated CI/CD pipeline using Jenkins
+* Deployed on AWS EC2
 
 ## Tech Stack
 
 * Node.js
 * Docker
 * Jenkins
+* AWS (EC2)
 * GitHub
 
 ## Project Structure
@@ -38,7 +45,7 @@ cd shortener
 npm install
 ```
 
-### 3. Run the app
+### 3. Run the app locally
 
 ```bash
 node app.js
@@ -51,10 +58,25 @@ docker build -t url-shortener .
 docker run -p 3000:3000 url-shortener
 ```
 
+## Deployment (AWS EC2)
+
+The application is deployed on an AWS EC2 instance and accessible via a public IP address.
+
+Example:
+
+```
+http://<your-ec2-public-ip>
+```
+
 ## CI/CD Pipeline
 
-This project uses Jenkins to automate the build and deployment process using a Jenkinsfile.
+This project uses Jenkins to:
+
+* Pull code from GitHub
+* Build the Docker image
+* Run the container
+* Deploy the application automatically on AWS
 
 ## Purpose
 
-This project demonstrates how to build and deploy a Node.js application using Docker and automate the workflow with Jenkins.
+This project demonstrates how to build, containerize, and deploy a Node.js application using Docker, automate workflows with Jenkins, and host it on AWS.
