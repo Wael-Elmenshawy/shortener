@@ -2,6 +2,8 @@
 
 This project is a simple URL shortener application built with Node.js, containerized using Docker, and deployed on AWS EC2 with a CI/CD pipeline powered by Jenkins.
 
+> ⚠️ Note: The original implementation of this project was removed. This repository now serves as a demonstration of building, containerizing, and deploying applications using Docker, Jenkins CI/CD, and AWS EC2.
+
 ## 🚀 Demo
 
 🎬 Watch the full CI/CD pipeline and AWS deployment:
