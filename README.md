@@ -3,9 +3,10 @@
 This project is a simple URL shortener application built with Node.js, containerized using Docker, and deployed on AWS EC2 with a CI/CD pipeline powered by Jenkins.
 
 ## Demo Video
-Click below to watch the full pipeline and deployment:
+🚀 Watch the full CI/CD pipeline and AWS deployment in action:  
 
 [Watch the demo](https://github.com/Wael-Elmenshawy/shortener/issues/1)
+
 
 ## Features
 
